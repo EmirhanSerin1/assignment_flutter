@@ -1,4 +1,4 @@
-import 'package:assignment_flutter/view/home/home.dart';
+import 'package:assignment_flutter/view/common_area/home.dart';
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -36,8 +36,9 @@ class MyApp extends StatelessWidget {
             ),
             visualDensity: FlexColorScheme.comfortablePlatformDensity,
             useMaterial3: true,
+            
           ),
-          home: const MyHomePage(),
+          home: const CommonArea(),
         );
       },
     );
