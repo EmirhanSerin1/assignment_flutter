@@ -47,8 +47,8 @@ _buildAddItemforLVB(BuildContext context, String text) {
             text,
             style: Theme.of(context)
                 .textTheme
-                .bodyText2!
-                .copyWith(color: Colors.white, fontSize: 40.sp),
+                .bodySmall!
+                .copyWith(color: Colors.white,),
           ),
         ],
       ),

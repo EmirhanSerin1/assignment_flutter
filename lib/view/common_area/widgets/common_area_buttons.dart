@@ -34,7 +34,7 @@ _buildMoreItem(BuildContext context, String text, Function()? function) {
     onTap: function,
     child: Container(
       padding:
-          EdgeInsets.only(left: 30.w, right: 22.w, top: 15.w, bottom: 15.w),
+         EdgeInsets.only(left: 15.w, right: 11.w, top: 7.w, bottom: 7.w),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16),
         color: const Color.fromARGB(255, 67, 80, 95),
@@ -47,14 +47,14 @@ _buildMoreItem(BuildContext context, String text, Function()? function) {
             text,
             style: Theme.of(context)
                 .textTheme
-                .bodyText2!
-                .copyWith(color: Colors.white, fontSize: 35.sp),
+                .bodySmall!
+                .copyWith(color: Colors.white, fontSize: 31.sp),
           ),
           SizedBox(width: 10.w),
           Padding(
             padding: const EdgeInsets.only(bottom: 2),
             child: Icon(Icons.arrow_forward_ios_outlined,
-                color: Colors.white, size: 35.sp),
+                color: Colors.white, size: 28.sp),
           ),
         ],
       ),
@@ -69,7 +69,7 @@ _buildAddItem(
     onTap: function,
     child: Container(
       padding:
-          EdgeInsets.only(left: 22.w, right: 30.w, top: 15.w, bottom: 15.w),
+          EdgeInsets.only(left: 11.w, right: 15.w, top: 7.w, bottom: 7.w),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16),
         color: const Color.fromARGB(255, 67, 80, 95),
@@ -78,14 +78,14 @@ _buildAddItem(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Icon(icon, color: Colors.white, size: 50.sp),
+          Icon(icon, color: Colors.white, size: 44.sp),
           SizedBox(width: 10.w),
           Text(
             text,
             style: Theme.of(context)
                 .textTheme
                 .bodyText2!
-                .copyWith(color: Colors.white, fontSize: 35.sp),
+                .copyWith(color: Colors.white, fontSize: 31.sp),
           ),
         ],
       ),
